@@ -8,6 +8,7 @@
         <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
         <script src="vendor/bootstrap/bootstrap.min.js"></script>
         <script src="js/layout.js"></script>
+        <script src="js/slideshow.min.js"></script>
         <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -21,7 +22,7 @@
         <div class="background">
         </div>
         <div class="wrapper">
-            <div class="header-background">
+            <div class="header-background" id="headerBackground">
 
             </div>
             <div class="header-background-after">
@@ -64,5 +65,14 @@
             </footer>
         </div>
 
+        <script>
+            var slideshow = new Slideshow({
+                tickInterval: 5000,
+                transitionTime: 1000,
+                backgroundElementId: "headerBackground"
+            });
+            slideshow.setImages(['img/slideshow/001.jpg', 'img/slideshow/002.jpg']);
+            slideshow.run();
+        </script>
     </body>
 </html>
