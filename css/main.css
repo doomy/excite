@@ -108,6 +108,11 @@ body > div.wrapper footer {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 3rem;
     padding: 2rem;
+    position: relative;
+    top: 22rem;
+    font-size: 2rem;
+    color: #666;
+    text-align: right;
 }
 
 
