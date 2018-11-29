@@ -3,7 +3,7 @@ body {
     text-align: center;
     font-family: Roboto, sans-serif;
     background-color: black;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
 }
 
 body > nav {
@@ -64,9 +64,10 @@ body .header-background {
     position: absolute;
     left: 0;
     top: 0rem;
-    filter: grayscale(40%);
+    filter: grayscale(0%);
     background-position: center;
     background-image: url(../img/slideshow/001.jpg);
+    background-size: 100% auto;
 
     opacity: 0;
     transition: opacity 1s ease-in-out, background 1.5s ease-in-out;
@@ -140,6 +141,7 @@ h1 {
     position: absolute;
     left: 0;
     z-index: 2;
+    color: #efff00;
    }
 
 h2 {
@@ -147,7 +149,7 @@ h2 {
     text-transform: uppercase;
     font-size: 4.4rem;
     text-shadow: 2px 2px 2px #000;
-    color: #fd002a!important;
+    color: #efff00;
 }
 
 p {

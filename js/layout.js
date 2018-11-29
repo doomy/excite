@@ -1,6 +1,6 @@
 $(function() {
    $(".background").addClass("opacity50");
-   $(".header-background").addClass("opacity80");
+   $(".header-background").addClass("fullOpacity");
    $("nav").addClass("fullOpacity");
    $(".content").addClass("fullOpacity");
 });
