@@ -101,7 +101,7 @@ body div.wrapper div.content {
     transition: opacity 2.4s ease-in-out;
 }
 
-body > div.wrapper footer {
+body > div.wrapper footer div {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 3rem;
     padding: 2rem;
@@ -109,7 +109,8 @@ body > div.wrapper footer {
     top: 22rem;
     font-size: 2rem;
     color: #666;
-    text-align: right;
+    width: 100%;
+    text-align: center;
 }
 
 
