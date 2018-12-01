@@ -18,7 +18,6 @@ body > nav {
     opacity: 0;
 
     transition: background-color 0.7s ease-in-out, top 1s ease-in-out, height 1s ease-in-out, opacity 1.7s ease-in-out;
-    border: 1px solid #666;
 }
 
 nav li a {
@@ -160,4 +159,77 @@ h2 {
 
 p {
     margin: 3rem 0 3rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    nav.full {
+        display: block;
+        border: 1px solid #666;
+    }
+    nav.mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav.full {
+        display: none;
+    }
+
+    nav.mobile {
+        display: block;
+        font-size: 6rem;
+    }
+
+    .autoHeight {
+        height: auto;
+    }
+
+    nav.mobile ul.nav li {
+        font-size: 4.5rem;
+        display: block;
+        background-color: black;
+        opacity: 0.9;
+    }
+
+    nav.mobile ul.nav li a {
+        color: #efff00;
+    }
+
+    a.burgerSwitch, a.burgerSwitch:active {
+        display: block;
+        width: 100%;
+        text-align: right;
+        color: #efff00;
+        position: relative;
+        right: 5rem;
+        top: 3rem;
+        z-index: 99;
+    }
+
+    .noHeight {
+        height: 0;
+        overflow: hidden;
+    }
+
+    #navMobile {
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 7rem;
+        margin-top: 2rem;
+    }
+
+    body {
+        font-size: 4rem;
+    }
+
+    body > div.wrapper footer div {
+        font-size: 4rem;
+    }
 }

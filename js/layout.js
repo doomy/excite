@@ -14,7 +14,13 @@ $(function() {
 
       $(selector).removeClass('invisible');
       return false;
-   })
+   });
+
+    $('.burgerSwitch').click(function () {
+       $('#navMobile').toggleClass('invisible');
+    });
+
+    $('#navMobile li a').click(function() {$('#navMobile').toggleClass('invisible')});
 });
 
 $(window).scroll(function() {

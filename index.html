@@ -10,14 +10,24 @@
         <script src="js/layout.js"></script>
         <script src="js/slideshow.min.js"></script>
         <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <nav>
+        <nav class="full">
              <ul class="navbar nav">
                  <li><a href="#tHome">Home</a></li>
                  <li><a href="#tAbout">About</a></li>
              </ul>
+        </nav>
+
+        <nav class="mobile">
+            <a class="burgerSwitch"><i
+                class="fa fa-bars fa-1x"></i></a>
+            <ul class="nav invisible" id="navMobile">
+                <li><a href="#tHome">Home</a></li>
+                <li><a href="#tAbout">About</a></li>
+            </ul>
         </nav>
         <div class="background">
         </div>
