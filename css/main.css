@@ -21,6 +21,11 @@ body > nav {
     border: 1px solid #666;
 }
 
+nav li a {
+    padding: 0!important;
+    color: white;
+}
+
 body > nav.scrolled {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 99;
@@ -126,7 +131,7 @@ body > div.wrapper footer div {
     opacity: 0.8!important;
 }
 
-.hidden {
+.invisible {
     opacity: 0!important;;
 }
 
