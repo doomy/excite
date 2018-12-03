@@ -21,6 +21,11 @@ body > nav {
 }
 
 nav li a {
+
+}
+
+nav li a:link, nav li a:hover, nav li a:active, nav li a:visited {
+    background: none!important;
     padding: 0!important;
     color: white;
 }
